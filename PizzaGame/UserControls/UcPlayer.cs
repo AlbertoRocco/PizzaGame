@@ -92,6 +92,8 @@ namespace PizzaGame.UserControls
         {
             try
             {
+                errorProvider.Clear();
+
                 if (isActive)
                 {
                     lblPlayerName.BackColor = _activePlayerHeaderColor;

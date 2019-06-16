@@ -71,6 +71,9 @@ namespace PizzaGame.Forms
             {
                 ucPlayer.SetActivePlayer(false);
             }
+
+            // Metto il focus al pulsante per l'inizio del gioco
+            btnStartGame.Focus();
         }
 
         /// <summary>
